@@ -1,0 +1,40 @@
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+	position: relative;
+}
+blockquote::after,
+blockquote::before{
+	content: '"';
+	font-size: 1.5em;
+	color: blue;
+	position: absolute;
+}
+blockquote::before {
+	top: 0;
+	left: -1px;
+  }
+  
+  blockquote::after {
+	bottom: 4px;
+	left: 572px;
+  }
+
+a {
+	color: darkred;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+a:visited{
+	color:blueviolet;
+}
+p:first-of-type:first-letter{
+	float: left;
+	color: darkred;
+	border: 3px ridge darkgoldenrod;
+	padding: 16px;
+	background-color: gold;
+	margin: 8px;
+}
